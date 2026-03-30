@@ -18,6 +18,14 @@ const TEMPLATE_FILE = './index.html';
 // Blog posts registry
 const BLOG_POSTS = [
     {
+        filename: 'openclaw-digitalocean-setup.md',
+        title: 'Building a Personal AI Assistant on DigitalOcean for $12/month',
+        date: '2026-03-30',
+        author: 'Ali TabeshPour',
+        tags: ['ai', 'openclaw', 'digitalocean', 'automation', 'assistant'],
+        excerpt: 'Learn how to build your own personal AI assistant using OpenClaw on a DigitalOcean VPS for just $12/month. Includes setup, GitHub integration, and daily automation.'
+    },
+    {
         filename: 'docker-start.md',
         title: 'Getting Started with Docker',
         date: '2025-11-04',
@@ -197,7 +205,7 @@ function createHTMLTemplate(title, description, content, canonical = '') {
         <div class="container">
             <div class="footer-content">
                 <div class="footer-text">
-                    <p>&copy; 2025 Ali TabeshPour. All rights reserved.</p>
+                    <p>&copy; 2026 Ali TabeshPour. All rights reserved.</p>
                 </div>
                 <div class="footer-repo">
                     <i class="fab fa-github"></i> 
